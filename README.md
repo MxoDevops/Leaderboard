@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> Description the project.
+> Collects scores of different participants and displays them.
 
 ## Built With
 
