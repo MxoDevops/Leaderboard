@@ -1,56 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
-
+> Collects scores of different participants and displays them.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS
+- Javascript/ES6
+- WEBPACK
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+- Navigate to code on this Repository
+- Copy the SSH code
+- Clone the repository using git or Download Zip
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+- Prior knowledge of HTML, CSS & Javascrpt
+- IDE [Vs Code, Sublime etc]
+- Browser [chrome, Safari or edge etc]
+- knowledge of webpack
 
 ### Install
 
-### Usage
+- Install .hint
+- install .Eslint
+- Install .stylelint
+- Install webpack
 
 ### Run tests
 
+- Npm run build
+- And to view: - Run npm start
+
 ### Deployment
 
-
-
-## Authors
+## Thokozani Ngubane
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MxoDevops](https://github.com/MxoDevops)
+- Twitter: [@godecuy](https://twitter.com/godecuy)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/thokozani-ngubane)
 
 ## 🤝 Contributing
 

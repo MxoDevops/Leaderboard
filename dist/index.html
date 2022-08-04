@@ -2,10 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>LeaderBoard</title>
   <script defer src="main.js"></script></head>
   <body>
-    <h1>Hello webpack!</h1>
+    <section class="Board">
+      <h1 class="title">LEADERBOARD</h1>
+
+      <div class="container">
+        <div class="board-container">
+          <div class="table">
+            <h2 class="recent-scores">Recent scores</h2>
+            <button type="button">Refresh</button>
+          </div>
+
+          <table class="scores">
+            <tr>
+              <td>Name: 100</td>
+            </tr>
+            <tr>
+              <td>Name: 20</td>
+            </tr>
+            <tr>
+              <td>Name: 50</td>
+            </tr>
+            <tr>
+              <td>Name: 78</td>
+            </tr>
+            <tr>
+              <td>Name: 125</td>
+            </tr>
+            <tr>
+              <td>Name: 77</td>
+            </tr>
+            <tr>
+              <td>Name: 42</td>
+            </tr>
+          </table>
+        </div>
+
+        <form>
+          <label>Add your score</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Your name "
+          />
+          <input type="number" id="num" name="num" placeholder="Your score" />
+
+          <div class="form-btn">
+            <button type="Submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
