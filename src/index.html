@@ -5,59 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>LeaderBoard</title>
+    <title>Leaderboard</title>
   </head>
-  <body>
-    <section class="Board">
-      <h1 class="title">LEADERBOARD</h1>
+  <body class="hero">
+    <h1 class="title">LeaderBoard</h1>
 
-      <div class="container">
-        <div class="board-container">
-          <div class="table">
-            <h2 class="recent-scores">Recent scores</h2>
-            <button type="button">Refresh</button>
-          </div>
-
-          <table class="scores">
-            <tr>
-              <td>Name: 100</td>
-            </tr>
-            <tr>
-              <td>Name: 20</td>
-            </tr>
-            <tr>
-              <td>Name: 50</td>
-            </tr>
-            <tr>
-              <td>Name: 78</td>
-            </tr>
-            <tr>
-              <td>Name: 125</td>
-            </tr>
-            <tr>
-              <td>Name: 77</td>
-            </tr>
-            <tr>
-              <td>Name: 42</td>
-            </tr>
-          </table>
+    <div class="main-container">
+      <div class="score-cont">
+        <div class="table-div">
+          <h3 class="title">Recent scores</h3>
+          <button type="button" class="refresh">Refresh</button>
         </div>
-
-        <form>
-          <label>Add your score</label>
-          <input
-            type="text"
-            id="firstname"
-            name="firstname"
-            placeholder="Your name "
-          />
-          <input type="number" id="num" name="num" placeholder="Your score" />
-
-          <div class="form-btn">
-            <button type="Submit">Submit</button>
-          </div>
-        </form>
+        <div class="table">
+          <ul class="scores-list"></ul>
+        </div>
       </div>
-    </section>
+      <form id="form">
+        <label>Add your score</label>
+        <input id="name" type="text" placeholder="Enter name" />
+        <input id="score" type="number" placeholder="Enter score" />
+        <button class="submit" type="submit">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
