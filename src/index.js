@@ -5,8 +5,7 @@ const gameContainer = document.getElementById('form');
 const newScoreler = document.getElementById('name');
 const scores = document.getElementById('score');
 const listContainer = document.querySelector('.scores-list');
-const url =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Snb2WJoQawPVda0Odf0p/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Snb2WJoQawPVda0Odf0p/scores/';
 
 const renderScore = (gameUsers) => {
   const gamers = gameUsers.result;
